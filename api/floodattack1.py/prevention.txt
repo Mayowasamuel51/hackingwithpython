@@ -1,0 +1,24 @@
+
+💡 Best Practices:
+
+--------Rate Limiting---------
+
+Use libraries like express-rate-limit (Node.js) or Laravel Throttle middleware.
+
+Example: Allow 5 login attempts per minute per IP.
+
+----------CAPTCHA---------
+
+Add Google reCAPTCHA or hCaptcha to login forms.
+
+------------IP Blacklisting------------
+
+Block IPs that send excessive traffic.
+
+---------------Use a WAF (Web Application Firewall)-----------------
+
+Tools like Cloudflare, AWS WAF, etc. can detect and block bad traffic.
+
+----------------Log Monitoring----------------
+
+Use tools like Splunk or ELK to track request spikes.
